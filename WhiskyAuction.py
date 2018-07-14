@@ -24,10 +24,10 @@ from bs4 import BeautifulSoup as soup
 import re
 import pymysql
 
-mysql_host = "db4free.net"
-mysql_user = "whiskydb"
-mysql_pass = "seandy29"
-mysql_db = "whisky"
+mysql_host = ""
+mysql_user = ""
+mysql_pass = ""
+mysql_db = ""
 db = pymysql.connect(host=mysql_host, user=mysql_user, passwd=mysql_pass, db=mysql_db)
 cursor = db.cursor()
 
